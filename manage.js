@@ -2,35 +2,46 @@ require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
 // List all assets
-// cloudinary.api.resources(
-// 	function(error, result) {console.log(result, error); });
+// cloudinary.api.resources()
+// 	.then(result => {console.log(result)})
+// 	.catch(error => {console.log(error)});
 
 // List all images with a given prefix
-// cloudinary.api.resources({ type: 'upload',  prefix: 'sample' },
-// 	function(error, result) {console.log(result, error); });
+// cloudinary.api.resources({ type: 'upload',  prefix: 'sample' })
+// 	.then(result => {console.log(result)})
+// 	.catch(error => {console.log(error)});
 
 // Rename an asset
-// cloudinary.uploader.rename("cheesecake", "my_cheesecake", {overwrite: true}, function(error, result) {console.log(result, error); });
+// cloudinary.uploader.rename("cheesecake", "my_cheesecake", {overwrite: true})
+// 	.then(result => {console.log(result)})
+// 	.catch(error => {console.log(error)});
 
 // Destroy with Upload API
-// cloudinary.uploader.destroy("cheesecake", {invalidate: true}, function(error,result) {
-// 	console.log(result, error) });
+// cloudinary.uploader.destroy("my_cheesecake", {invalidate: true})
+// 	.then(result => {console.log(result)})
+// 	.catch(error => {console.log(error)});
 
 // Delete multiple with Admin API
-// cloudinary.api.delete_resources(["squirrel", "sheep"],
-// 	function(error, result) {console.log(result, error); });
+// cloudinary.api.delete_resources(["squirrel", "sheep"])
+// 	.then(result => {console.log(result)})
+// 	.catch(error => {console.log(error)});
 
 // Upload and tag an asset
-// cloudinary.uploader.upload("./assets/tag.jpg", {tags: "object, literally a tag"},
-// 	function(error, result) {console.log(result, error)});
+// cloudinary.uploader.upload("./assets/tag.jpg", {tags: "object, literally a tag"})
+// 	.then(result => {console.log(result)})
+// 	.catch(error => {console.log(error)});
 
 // Tag an existing asset
-// cloudinary.uploader.add_tag("animal", [ "cat", "dog" ],
-// 	function(error, result) { console.log(result, error) });
+// cloudinary.uploader.add_tag("animal", [ "cat", "dog" ])
+// 	.then(result => {console.log(result)})
+// 	.catch(error => {console.log(error)});
 
 // Remove all tags from assets with public ID "cat" and "dog"
-// cloudinary.uploader.remove_all_tags([ "cat", "dog" ],
-// 	function(error, result) { console.log(result, error) });
+// cloudinary.uploader.remove_all_tags([ "cat", "dog" ])
+// 	.then(result => {console.log(result)})
+// 	.catch(error => {console.log(error)});
 
 // Rename an asset and invalidate
-// cloudinary.uploader.rename("cat", "cute_cat", {invalidate: true}, function(error, result) {console.log(result, error); });
+// cloudinary.uploader.rename("cat", "cute_cat", {invalidate: true})
+// 	.then(result => {console.log(result)})
+// 	.catch(error => {console.log(error)});
