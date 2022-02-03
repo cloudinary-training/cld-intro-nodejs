@@ -12,11 +12,11 @@ const cloudinary = require('cloudinary').v2;
 //////
 // Resource Type
 //////
-// cloudinary.uploader.upload("./assets/dog.mp4", {resource_type: "auto"})
+// cloudinary.uploader.upload("./assets/dog.webm", {resource_type: "auto"})
 // 	.then(result => {console.log(result)})
 // 	.catch(error => {console.log(error)});
 
-// cloudinary.uploader.upload("./assets/dog.mp4", {resource_type: "video"})
+// cloudinary.uploader.upload("./assets/dog.webm", {resource_type: "video"})
 // 	.then(result => {console.log(result)})
 // 	.catch(error => {console.log(error)});
 
