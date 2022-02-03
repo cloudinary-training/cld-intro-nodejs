@@ -2,13 +2,13 @@ require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
 // Resize an asset
-// console.log(cloudinary.image("cheesecake.jpg", {transformation: {width: 300, crop: "scale"}}));
+// console.log(cloudinary.url("cheesecake.jpg", {transformation: {width: 300, crop: "scale"}}));
 
 // Crop an asset
-// console.log(cloudinary.image("cheesecake.jpg", {transformation: {width: 300, height: 300, crop: "pad"}}));
+// console.log(cloudinary.url("cheesecake.jpg", {transformation: {width: 300, height: 300, crop: "pad"}}));
 
 // Crop with gravity
-// console.log(cloudinary.image("dog.jpg", {transformation: {width: 300, height: 300, crop: "thumb", gravity: "auto"}}));
+// console.log(cloudinary.url("dog.jpg", {transformation: {width: 300, height: 300, crop: "thumb", gravity: "auto"}}));
 
 // OPTIONAL - Add Ally cat to your account
 // cloudinary.uploader.upload("./assets/Ally.jpg", {public_id: "AllyCat"},
@@ -23,7 +23,7 @@ const cloudinary = require('cloudinary').v2;
 // console.log(cloudinary.url("robot.jpg", {transformation: {quality: "auto"}}));
 
 // Rounding
-// console.log(cloudinary.image("dog.jpg", {transformation: {width: 300, height: 300, crop: "thumb", gravity: "auto", fetch_format: "auto", quality: "auto", radius: "max"}}));
+// console.log(cloudinary.url("dog.jpg", {transformation: {width: 300, height: 300, crop: "thumb", gravity: "auto", fetch_format: "auto", quality: "auto", radius: "max"}}));
 
 // Borders
 // console.log(cloudinary.url("sample.jpg", {transformation: {width: 300, height: 300, crop: "thumb", gravity: "auto", fetch_format: "auto", quality: "auto", radius: "max", border: "10px_solid_rgb:bde4fb"}}));
