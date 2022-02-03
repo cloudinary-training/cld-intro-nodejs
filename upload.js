@@ -20,7 +20,8 @@ const cloudinary = require('cloudinary').v2;
 // 	.then(result => {console.log(result)})
 // 	.catch(error => {console.log(error)});
 
-// cloudinary.uploader.upload("./assets/BLKCHCRY.TTF", {resource_type: "raw"})
+// cloudinary.uploader.upload("./assets/BLKCHCRY.TTF",
+// 	{resource_type: "raw", use_filename: true, unique_filename: false})
 // 	.then(result => {console.log(result)})
 // 	.catch(error => {console.log(error)});
 
