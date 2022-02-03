@@ -49,7 +49,7 @@ const cloudinary = require('cloudinary').v2;
 // cloudinary.uploader.upload("./assets/cloudinary_logo.svg", {public_id: "cloudinary_logo"},
 // 	function(error, result) {console.log(result, error)});
 // Overlays - Image over video
-// console.log(cloudinary.url("dog.mp4", {resource_type: "video", transformation: [{width: 400, crop: "scale"},
+// console.log(cloudinary.url("dog.webm", {resource_type: "video", transformation: [{width: 400, crop: "scale"},
 // {overlay: "cloudinary_logo", height: "50", gravity: "south_east", x: 10, y: 10}]}));
 // Overlays - Text over image
 // console.log(cloudinary.url("cheesecake.jpg", {transformation: [{width: 300, height: 300, crop: "thumb", gravity: "auto"},
