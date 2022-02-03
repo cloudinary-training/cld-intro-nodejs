@@ -12,7 +12,7 @@ const cloudinary = require('cloudinary').v2;
 // 	.catch(error => {console.log(error)});
 
 // Rename an asset
-// cloudinary.uploader.rename("cheesecake", "my_cheesecake", {overwrite: true})
+// cloudinary.uploader.rename("food/my_favorite/cheesecake", "my_cheesecake", {overwrite: true})
 // 	.then(result => {console.log(result)})
 // 	.catch(error => {console.log(error)});
 
