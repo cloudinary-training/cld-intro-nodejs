@@ -32,9 +32,18 @@ const cloudinary = require('cloudinary').v2;
 // 	.catch(error => {console.log(error)});
 
 // Tag an existing asset
-// cloudinary.uploader.add_tag("animal", [ "cat", "dog" ])
+// cloudinary.uploader.add_tag("animal", [ "cat" ])
 // 	.then(result => {console.log(result)})
 // 	.catch(error => {console.log(error)});
+
+cloudinary.uploader
+  .add_tag('animal', 'dog',{resource_type:'video'})
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
 
 // Remove all tags from assets with public ID "cat" and "dog"
 // cloudinary.uploader.remove_all_tags([ "cat", "dog" ])
