@@ -16,7 +16,8 @@ const cloudinary = require('cloudinary').v2;
 // 	.then(result => {console.log(result)})
 // 	.catch(error => {console.log(error)});
 
-// cloudinary.uploader.upload("./assets/dog.webm", {resource_type: "video"})
+
+// cloudinary.uploader.upload("./assets/dog.mp4", {resource_type: "video", public_id: "dog"})
 // 	.then(result => {console.log(result)})
 // 	.catch(error => {console.log(error)});
 
