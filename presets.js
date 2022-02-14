@@ -3,7 +3,7 @@ const cloudinary = require('cloudinary').v2;
 
 // Create an unsigned preset
 // cloudinary.api.create_upload_preset(
-// 	{ name: "unsigned-image", unsigned: true, tags: "unsigned",allowed_formats: "jpg,png" })
+// 	{ name: "unsigned-image", unsigned: true, tags: "unsigned", allowed_formats: "jpg,png" })
 // 	.then(result => {console.log(result)})
 // 	.catch(error => {console.log(error)});
 
