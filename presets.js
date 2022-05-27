@@ -1,6 +1,8 @@
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
+//DOCS: https://cloudinary.com/documentation/upload_presets
+
 // Create an unsigned preset
 // cloudinary.api.create_upload_preset(
 // 	{ name: "unsigned-image", unsigned: true, tags: "unsigned", allowed_formats: "jpg,png" })

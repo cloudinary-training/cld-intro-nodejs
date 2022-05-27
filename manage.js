@@ -1,6 +1,8 @@
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
+//DOCS: https://cloudinary.com/documentation/managing_assets
+
 // List all assets
 // cloudinary.api.resources()
 // 	.then(result => {console.log(result)})
