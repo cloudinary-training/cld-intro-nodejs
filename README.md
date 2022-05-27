@@ -1,10 +1,11 @@
 # cld-intro-nodejs
 Introduction to Cloudinary Using Node
+
 ## Environment Setup
 
 ### Install Node.js and NPM
 You will need to install Node.js on your machine, version 10 or higher.
- Installing Node.js will also install npm, the package manager for Node.js.
+ Important - Installing Node.js will also install npm, the package manager for Node.js.
 
 #### Mac Users
 Using Homebrew:
