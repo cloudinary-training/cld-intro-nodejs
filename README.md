@@ -58,7 +58,7 @@ $ npm --version
 
 3. Create a `.env` file in the root of the project. Paste the CLOUDINARY_URL environment variable into your `.env` file.
 
-### Run Code: Test Credentials
+## Run Code: Test Credentials
 
 Npm install Node.js libraries. You will be using the `cloudinary` and the `dotenv` libraries.
 
