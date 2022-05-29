@@ -28,6 +28,9 @@ $ npm --version
 8.1.0
 ```
 
+### REPO - If you'd like to Follow Along
+- [Repo](https://github.com/cloudinary-training/cld-intro-nodejs)
+
 ### Choose an IDE or Use Text Editor
 
 - [Visual Studio Code](https://code.visualstudio.com/download) 
