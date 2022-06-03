@@ -60,7 +60,7 @@ $ npm --version
 
 ## Run Code: Test Credentials
 
-Npm install Node.js libraries. You will be using the `cloudinary` and the `dotenv` libraries.
+Make sure to npm install the Node.js libraries. You will be using the `cloudinary` and the `dotenv` libraries.
 
 ```bash
 npm i
@@ -69,7 +69,7 @@ npm i
 ```bash
 node testCredentials.js
 ```
-You should see your cloud name, API key, and API_SECRET. PS- Keep your secret private!
+You should see your Cloud Name, API Key, and API_SECRET. PS- Keep your secret private!
 
 ### Run Code:
 Example- run scripts from the root because all references to local assets are relative to the root.
