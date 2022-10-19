@@ -4,7 +4,7 @@ const cloudinary = require('cloudinary').v2;
 //DOCS: https://cloudinary.com/documentation/image_transformations
 
 // Resize an asset
-// console.log(cloudinary.url("cheesecake.jpg", {transformation: {width: 300, crop: "scale"}}));
+console.log(cloudinary.url("cheesecake.jpg", {transformation: {width: 300, crop: "scale"}}));
 
 // Crop an asset
 // console.log(cloudinary.url("cheesecake.jpg", {transformation: {width: 300, height: 300, crop: "pad"}}));

@@ -6,10 +6,12 @@ const cloudinary = require('cloudinary').v2;
 //////
 // Basic Upload Method
 //////
-// cloudinary.uploader.upload("./assets/cat.jpg")
-// 	.then(result => {console.log(result)})
-// 	.catch(error => {console.log(error)});
+cloudinary.uploader.upload("./assets/cat.jpg")
+	.then(result => {console.log(result)})
+	.catch(error => {console.log(error)});
 
+
+	
 
 //////
 // Resource Type
