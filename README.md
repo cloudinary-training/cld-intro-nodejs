@@ -69,13 +69,13 @@ npm i
 ```bash
 node testCredentials.js
 ```
-You should see your Cloud Name, API Key, and API_SECRET. PS- Keep your secret private!
+You should see your Cloud Name and API Key. PS- Keep your secret private!
+
 
 ### Run Code:
 Example- run scripts from the root because all references to local assets are relative to the root.
 
-All of the functions are commented out for demo purposes, so you'll first need to uncomment functions to run them.
-
+In order to upload all of the assets associated with these code examples and assign the correct Public ID to each, run this file:
 ```bash
 node upload.js
 ```
